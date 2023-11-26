@@ -1,0 +1,104 @@
+ [
+      {
+        "id": 1,
+        "test_name": "Complete Blood Count (CBC)",
+        "image": "https://i.ibb.co/YX4JGYp/Complete-blood-test.jpg",
+        "details": "A CBC test measures different components of your blood, such as red blood cells, white blood cells, and platelets.",
+        "price": 50,
+        "date": "2023-12-01",
+        "slot": 20
+      },
+      {
+        "id": 2,
+        "test_name": "Lipid Profile",
+        "image": "https://i.ibb.co/59BhdnN/Lipid.jpg",
+        "details": "Lipid profile test evaluates cholesterol levels in the blood, including HDL, LDL, and triglycerides.",
+        "price": 60,
+        "date": "2023-12-02",
+        "slot": 20
+      },
+      {
+        "id": 3,
+        "test_name": "Thyroid Function Test",
+        "image": "https://i.ibb.co/sKgSDyC/Thyroid-test.jpg",
+        "details": "Checks thyroid gland function by measuring levels of thyroid hormones (T3, T4) and TSH.",
+        "price": 45,
+        "date": "2023-12-03",
+        "slot": 20
+      },
+      {
+        "id": 4,
+        "test_name": "Liver Function Test",
+        "image": "https://i.ibb.co/jLpvXhV/Liver-test.png",
+        "details": "Assesses liver health by measuring levels of enzymes and proteins in the blood.",
+        "price": 55,
+        "date": "2023-12-04",
+        "slot": 20
+      },
+      {
+        "id": 5,
+        "test_name": "Electrocardiogram (ECG/EKG)",
+        "image": "https://i.ibb.co/NrN0J6B/ECG-test.jpg",
+        "details": "Records electrical activity of the heart to detect heart problems or irregularities.",
+        "price": 70,
+        "date": "2023-12-05",
+        "slot": 20
+      },
+      {
+        "id": 6,
+        "test_name": "Kidney Function Test",
+        "image": "https://i.ibb.co/Gpch7h7/Renal-panel-test.jpg",
+        "details": "Measures kidney function by evaluating levels of electrolytes, creatinine, and urea in the blood.",
+        "price": 65,
+        "date": "2023-12-06",
+        "slot": 20
+      },
+      {
+        "id": 7,
+        "test_name": "Blood Glucose Test",
+        "image": "https://i.ibb.co/GPfNRTb/Blood-Glucose.jpg",
+        "details": "Measures blood sugar levels after fasting to diagnose diabetes or monitor glucose control.",
+        "price": 40,
+        "date": "2023-12-07",
+        "slot": 20
+      },
+      {
+        "id": 8,
+        "test_name": "X-ray Imaging",
+        "image": "https://i.ibb.co/NWPhQ6L/x-ray.jpg",
+        "details": "Uses electromagnetic radiation to produce images of the internal body structures.",
+        "price": 80,
+        "date": "2023-12-08",
+        "slot": 20
+      },
+      {
+        "id": 9,
+        "test_name": "Pap Smear",
+        "image": "https://i.ibb.co/BjvGwV1/Pap-Smear-Pap-Test.jpg",
+        "details": "Screening test for cervical cancer by examining cervical cells.",
+        "price": 55,
+        "date": "2023-12-09",
+        "slot": 20
+      },
+      {
+        "id": 10,
+        "test_name": "Bone Density Test",
+        "image": "https://i.ibb.co/CbDh0Fw/Bone-Density-Test-DEXA-Scan.jpg",
+        "details": "Measures bone mineral density to diagnose osteoporosis or assess fracture risk.",
+        "price": 75,
+        "date": "2023-12-10",
+        "slot": 20
+      }
+    ]
+  
+
+
+
+
+
+
+
+
+
+
+
