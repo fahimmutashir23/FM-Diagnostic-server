@@ -28,6 +28,7 @@ async function run() {
     const upozilaCollection = client.db("DiagnosticDB").collection("upozila");
     const bannerCollection = client.db("DiagnosticDB").collection("banners");
     const paymentCollection = client.db("DiagnosticDB").collection("payments");
+    const testResultCollection = client.db("DiagnosticDB").collection("testResults");
 
     // user related operation
 
@@ -136,6 +137,15 @@ async function run() {
         res.send(result)
      })
 
+     app.delete("/banners/:id", async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: new ObjectId(id) };
+      const result = await bannerCollection.deleteOne(query);
+      res.send(result);
+    });
+
+
+
     // test related operation
 
     app.get("/tests", async (req, res) => {
@@ -196,7 +206,8 @@ async function run() {
       res.send(result);
     });
 
-    // payment related api
+    // payment and reservation related api
+
     app.post('/payment-intent', async(req, res) => {
       const {price} = req.body;
       const amount = parseInt(price * 100);
@@ -207,6 +218,7 @@ async function run() {
       });
       res.send({clientSecret : paymentIntent.client_secret})
     })
+
 
     app.get('/payments', async(req, res) => {
       const email = req.query.email;
@@ -224,6 +236,47 @@ async function run() {
       res.send(result)
     })
 
+    app.delete('/payments/:id', async(req, res) => {
+      const id = req.params.id;
+      const query = {_id : new ObjectId(id)}
+      const result = await paymentCollection.deleteOne(query);
+      res.send(result)
+    })
+
+    app.put("/payments/:id", async (req, res) => {
+      const id = req.params.id;
+      const filter = { _id: new ObjectId(id) };
+      const updatedDoc = {
+        $set : {
+          status : 'Delivered'
+        }
+      }
+      const result = await paymentCollection.updateOne(filter, updatedDoc);
+      res.send(result);
+    });
+
+
+    // Test result api
+
+    app.get('/testResult', async(req, res) => {
+      const email = req.query.email;
+      const testName = req.query.testName;
+      let query;
+      if(email && testName){
+        query = {$and : [{email : email}, {testName : testName}]}
+      }
+      else if(email){
+        query = {email : email}
+      }
+      const result = await testResultCollection.find(query).toArray();
+      res.send(result);
+    })
+
+    app.post('/testResult', async(req, res) => {
+      const data = req.body;
+      const result = await testResultCollection.insertOne(data);
+      res.send(result)
+    })
 
 
 
