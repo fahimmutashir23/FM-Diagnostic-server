@@ -1,0 +1,87 @@
+[
+    {
+        "specialist": "Cardiologist",
+        "doctors_fee": 40,
+        "doctor_name": "Dr. Olivia Garcia",
+        "doctor_img": "https://i.ibb.co/y6DktT8/pexels-antoni-shkraba-5214995.jpg",
+        "health_tips": "Cardiologists recommend a diet rich in fruits, vegetables, whole grains, and lean proteins to support heart health. Additionally, regular aerobic exercise such as brisk walking, swimming, or cycling helps improve cardiovascular fitness and lowers the risk of heart disease."
+    },
+    {
+        "specialist": "Dermatologist",
+        "doctors_fee": 40,
+        "doctor_name": "Dr. Adam Lorem",
+        "doctor_img": "https://i.ibb.co/W2Hy5ZG/humberto-chavez-FVh-yq-LR9e-A-unsplash.jpg",
+        "health_tips": "Dermatologists emphasize the importance of using sunscreen with SPF 30 or higher to protect against harmful UV rays. They also suggest maintaining proper hydration and adopting a skincare routine suitable for your skin type to prevent premature aging and skin conditions."
+    },
+    {
+        "specialist": "Pediatrician",
+        "doctors_fee": 40,
+        "doctor_name": "Dr. Benjamin Smith",
+        "doctor_img": "https://i.ibb.co/xGdVttD/jeremy-alford-O13-B7su-RG4-A-unsplash.jpg",
+        "health_tips": "Pediatricians stress the significance of breastfeeding and introducing a variety of nutritious foods to infants and young children. They also advocate for limited screen time and encourage physical activity to promote healthy growth and development."
+    },
+    {
+        "specialist": "Gynecologist",
+        "doctors_fee": 40,
+        "doctor_name": "Dr. Olivia Garcia",
+        "doctor_img": "https://i.ibb.co/ZSY3LjD/bruno-rodrigues-279x-IHym-PYY-unsplash.jpg",
+        "health_tips": "Regular screenings such as Pap smears and mammograms are essential for women's health. Gynecologists advise maintaining a balanced diet, engaging in regular exercise, and discussing any concerns or changes in menstrual cycles for optimal reproductive health."
+    },
+    {
+        "specialist": "Orthopedist",
+        "doctors_fee": 40,
+        "doctor_name": "Dr. Jessica Lee",
+        "doctor_img": "https://i.ibb.co/h74VVpv/usman-yousaf-Sakq-Lf78-KVo-unsplash.jpg",
+        "health_tips": "To maintain healthy bones and joints, orthopedists recommend a balanced diet rich in calcium and vitamin D. They also suggest avoiding excessive strain on joints, practicing proper posture, and engaging in low-impact exercises like swimming or yoga."
+    },
+    {
+        "specialist": "Psychiatrist",
+        "doctors_fee": 40,
+        "doctor_name": "Dr. David Williams",
+        "doctor_img": "https://i.ibb.co/y6DktT8/pexels-antoni-shkraba-5214995.jpg",
+        "health_tips": "Psychiatrists emphasize the importance of open communication about mental health concerns. They suggest mindfulness practices, stress reduction techniques, regular physical activity, and seeking professional help when experiencing persistent anxiety, depression, or other mental health issues."
+    },
+    {
+        "specialist": "Ophthalmologist",
+        "doctors_fee": 40,
+        "doctor_name": "Dr. Christopher Anderson",
+        "doctor_img": "https://i.ibb.co/Db3NMQq/pexels-antoni-shkraba-5215017.jpg",
+        "health_tips": "To maintain good eye health, ophthalmologists recommend regular eye exams. They also advise protecting eyes from excessive screen time by following the 20-20-20 rule (every 20 minutes, look at something 20 feet away for 20 seconds) and wearing protective eyewear when necessary."
+    },
+    {
+        "specialist": "Endocrinologist",
+        "doctors_fee": 40,
+        "doctor_name": "Dr. Emily Chen",
+        "doctor_img": "https://i.ibb.co/YTK9CM1/pexels-tima-miroshnichenko-5407206.jpg",
+        "health_tips": "Endocrinologists stress the importance of managing blood sugar levels through diet and exercise for individuals with diabetes. They also advocate for regular medication adherence, monitoring hormone levels, and seeking professional guidance for hormone-related conditions."
+    },
+    {
+        "specialist": "Pulmonologist",
+        "doctors_fee": 40,
+        "doctor_name": "Dr. Michael Rodriguez",
+        "doctor_img": "https://i.ibb.co/8NhtrpV/istockphoto-1390000431-170667a.webp",
+        "health_tips": "Pulmonologists advise avoiding exposure to pollutants, quitting smoking, and maintaining a clean indoor environment to support lung health. They also suggest regular exercise and seeking medical attention for persistent respiratory symptoms."
+    },
+    {
+        "specialist": "Neurologist",
+        "doctors_fee": 40,
+        "doctor_name": "Dr. Sarah Johnson",
+        "doctor_img": "https://i.ibb.co/9r011yM/usman-yousaf-p-Trhfmj2j-DA-unsplash.jpg",
+        "health_tips": "Neurologists stress the importance of maintaining good sleep hygiene for overall brain health. They suggest practicing relaxation techniques, getting adequate sleep, and seeking medical advice for persistent headaches, memory issues, or other neurological symptoms."
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
